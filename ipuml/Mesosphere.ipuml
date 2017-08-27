@@ -1,4 +1,5 @@
-' Mesosphere Theme to be used with the PlantUML !include directive
+' Mesosphere Theme to be used with the PlantUML !includeurl directive like so:
+'!includeurl https://raw.githubusercontent.com/vishnu2kmohan/puml/master/ipuml/Mesosphere.ipuml
 
 ' Mesosphere Colors
 !define MESOSPHERE_HELIOTROPE     #9351E5
