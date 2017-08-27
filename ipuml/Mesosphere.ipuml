@@ -1,0 +1,109 @@
+' Mesosphere Theme to be used with the PlantUML !include directive
+
+' Mesosphere Colors
+!define MESOSPHERE_HELIOTROPE     #9351E5
+!define MESOSPHERE_SPACE_GRAY     #323A4E
+!define MESOSPHERE_MERCURY_PINK   #EF468B
+!define MESOSPHERE_VENUS_YELLOW   #FEDF57
+!define MESOSPHERE_EARTH_BLUE     #2F81F7
+!define MESOSPHERE_MARS_RED       #FC4661
+!define MESOSPHERE_JUPYTER_ORANGE #F56753
+!define MESOSPHERE_SATURN_ORCHID  #C043D7
+!define MESOSPHERE_URANUS_GREEN   #27C97B
+!define MESOSPHERE_NEPTUNE_CYAN   #20D5FF
+
+' Uncomment to use the new Teoz layout engine instead of Puma (default)
+'!pragma teoz on
+
+skinparam arrowColor              MESOSPHERE_SPACE_GRAY
+skinparam backgroundColor         transparent
+skinparam defaultFontName         Source Sans Pro
+skinparam footerFontColor         MESOSPHERE_SPACE_GRAY
+skinparam headerFontColor         MESOSPHERE_SPACE_GRAY
+skinparam roundcorner             10
+skinparam shadowing               false
+skinparam titleFontColor          MESOSPHERE_SPACE_GRAY
+
+skinparam activity {
+  ArrowColor                      MESOSPHERE_SPACE_GRAY
+  ArrowFontColor                  MESOSPHERE_SPACE_GRAY
+  BackgroundColor                 MESOSPHERE_HELIOTROPE|MESOSPHERE_MERCURY_PINK
+  BarColor                        MESOSPHERE_SPACE_GRAY
+  BorderColor                     transparent
+  BorderThickness                 0
+  DiamondBackgroundColor          MESOSPHERE_HELIOTROPE|MESOSPHERE_MERCURY_PINK
+  DiamondBorderColor              transparent
+  DiamondBorderThickness          0
+  DiamondFontColor                white
+  EndColor                        MESOSPHERE_SPACE_GRAY
+  FontColor                       white   
+  PartitionBackgroundColor        transparent
+  PartitionBorderColor            MESOSPHERE_SPACE_GRAY
+  PartitionFontColor              MESOSPHERE_SPACE_GRAY
+  StartColor                      MESOSPHERE_SPACE_GRAY
+}
+
+skinparam actor {
+  BackgroundColor                 MESOSPHERE_HELIOTROPE|MESOSPHERE_MERCURY_PINK
+  BorderColor                     MESOSPHERE_HELIOTROPE
+}
+
+skinparam note {
+  BackgroundColor                 MESOSPHERE_VENUS_YELLOW
+  BorderColor                     MESOSPHERE_VENUS_YELLOW
+  BorderThickness                 0
+  FontColor                       MESOSPHERE_SPACE_GRAY
+}
+
+skinparam partition {
+  BackgroundColor                 transparent
+  BorderColor                     MESOSPHERE_SPACE_GRAY
+  FontColor                       MESOSPHERE_SPACE_GRAY
+}
+
+skinparam sequence {
+  ArrowColor                      MESOSPHERE_SPACE_GRAY
+  ArrowFontColor                  MESOSPHERE_SPACE_GRAY
+  BoxBackgroundColor              MESOSPHERE_NEPTUNE_CYAN
+  BoxBorderColor                  MESOSPHERE_NEPTUNE_CYAN
+  BoxFontColor                    MESOSPHERE_SPACE_GRAY
+  BoxLineColor                    MESOSPHERE_NEPTUNE_CYAN
+  DividerBackgroundColor          MESOSPHERE_SPACE_GRAY
+  DividerBorderColor              MESOSPHERE_SPACE_GRAY
+  DividerFontColor                white
+  GroupBackgroundColor            MESOSPHERE_URANUS_GREEN
+  GroupBodyBackgroundColor        transparent
+  GroupBorderColor                MESOSPHERE_URANUS_GREEN
+  GroupFontColor                  MESOSPHERE_SPACE_GRAY
+  GroupHeaderFontColor            MESOSPHERE_SPACE_GRAY
+  LifeLineBackgroundColor         MESOSPHERE_JUPYTER_ORANGE
+  LifeLineBorderColor             MESOSPHERE_JUPYTER_ORANGE
+  MessageAlign                    left
+  NewpageSeparatorColor           MESOSPHERE_SPACE_GRAY
+  ParticipantBackgroundColor      MESOSPHERE_HELIOTROPE|MESOSPHERE_MERCURY_PINK
+  ParticipantBorderColor          transparent
+  ParticipantBorderThickness      0
+  ParticipantFontColor            white
+  ReferenceBackgroundColor        MESOSPHERE_SPACE_GRAY
+  ReferenceBorderColor            MESOSPHERE_SPACE_GRAY
+  ReferenceFontColor              white
+  ReferenceHeaderBackgroundColor  MESOSPHERE_SPACE_GRAY
+  StereotypeFontColor             MESOSPHERE_SPACE_GRAY
+  TitleFontColor                  MESOSPHERE_SPACE_GRAY
+}
+
+skinparam state {
+  ArrowColor                      MESOSPHERE_SPACE_GRAY 
+  AttributeFontColor              white
+  BackgroundColor                 MESOSPHERE_HELIOTROPE|MESOSPHERE_MERCURY_PINK
+  BorderColor                     MESOSPHERE_JUPYTER_ORANGE
+  EndColor                        MESOSPHERE_SPACE_GRAY
+  FontColor                       white
+  StartColor                      MESOSPHERE_SPACE_GRAY
+}
+
+skinparam swimlane {
+  BorderThickness                 0
+  TitleFontColor                  MESOSPHERE_SPACE_GRAY
+  Width                           same
+}
