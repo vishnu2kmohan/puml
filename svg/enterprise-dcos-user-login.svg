@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="754px" preserveAspectRatio="none" style="width:671px;height:754px;" version="1.1" viewBox="0 0 671 754" width="671px" zoomAndPan="magnify"><defs><linearGradient id="g1xocb9vj02em10" x1="0%" x2="100%" y1="50%" y2="50%"><stop offset="0%" stop-color="#9351E5"/><stop offset="100%" stop-color="#EF468B"/></linearGradient></defs><g><text fill="#323A4E" font-family="Source Sans Pro" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="257" x="207.75" y="21.5716">Mesosphere Enterprise DC/OS User Login</text><rect fill="#F56753" height="648.6045" style="stroke: #F56753; stroke-width: 1.0;" width="10" x="41.5" y="83.9769"/><rect fill="#F56753" height="56.9705" style="stroke: #F56753; stroke-width: 1.0;" width="10" x="204.5" y="136.9622"/><rect fill="#F56753" height="552.6636" style="stroke: #F56753; stroke-width: 1.0;" width="10" x="318.5" y="163.9326"/><rect fill="#F56753" height="92.9557" style="stroke: #F56753; stroke-width: 1.0;" width="10" x="432.5" y="308.8599"/><rect fill="#F56753" height="92.9409" style="stroke: #F56753; stroke-width: 1.0;" width="10" x="543.5" y="461.7723"/><line style="stroke: #F56753; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="46" x2="46" y1="73.9769" y2="742.5814"/><line style="stroke: #F56753; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="209" x2="209" y1="73.9769" y2="742.5814"/><line style="stroke: #F56753; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="323" x2="323" y1="73.9769" y2="742.5814"/><line style="stroke: #F56753; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="437.5" x2="437.5" y1="73.9769" y2="742.5814"/><line style="stroke: #F56753; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="548.5" x2="548.5" y1="73.9769" y2="742.5814"/><rect fill="url(#g1xocb9vj02em10)" height="41.9846" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 0.0;" width="47" x="23" y="30.9923"/><text fill="#FFFFFF" font-family="Source Sans Pro" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="26" x="33.5" y="49.2141">User</text><text fill="#FFFFFF" font-family="Source Sans Pro" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="30" y="63.2065">Client</text><rect fill="url(#g1xocb9vj02em10)" height="41.9846" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 0.0;" width="53" x="183" y="30.9923"/><text fill="#FFFFFF" font-family="Source Sans Pro" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="190.5" y="49.2141">Admin</text><text fill="#FFFFFF" font-family="Source Sans Pro" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="190" y="63.2065">Router</text><rect fill="url(#g1xocb9vj02em10)" height="41.9846" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 0.0;" width="107" x="270" y="30.9923"/><text fill="#FFFFFF" font-family="Source Sans Pro" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="289" y="49.2141">Identity and</text><text fill="#FFFFFF" font-family="Source Sans Pro" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="277" y="63.2065">Access Manager</text><rect fill="url(#g1xocb9vj02em10)" height="41.9846" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 0.0;" width="52" x="411.5" y="30.9923"/><text fill="#FFFFFF" font-family="Source Sans Pro" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="422" y="49.2141">LDAP</text><text fill="#FFFFFF" font-family="Source Sans Pro" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="418.5" y="63.2065">Server</text><rect fill="url(#g1xocb9vj02em10)" height="41.9846" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 0.0;" width="110" x="493.5" y="30.9923"/><text fill="#FFFFFF" font-family="Source Sans Pro" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="515.5" y="49.2141">OIDC/SAML</text><text fill="#FFFFFF" font-family="Source Sans Pro" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="96" x="500.5" y="63.2065">Identity Provider</text><rect fill="#F56753" height="648.6045" style="stroke: #F56753; stroke-width: 1.0;" width="10" x="41.5" y="83.9769"/><rect fill="#F56753" height="56.9705" style="stroke: #F56753; stroke-width: 1.0;" width="10" x="204.5" y="136.9622"/><rect fill="#F56753" height="552.6636" style="stroke: #F56753; stroke-width: 1.0;" width="10" x="318.5" y="163.9326"/><rect fill="#F56753" height="92.9557" style="stroke: #F56753; stroke-width: 1.0;" width="10" x="432.5" y="308.8599"/><rect fill="#F56753" height="92.9409" style="stroke: #F56753; stroke-width: 1.0;" width="10" x="543.5" y="461.7723"/><rect fill="none" height="472.7068" style="stroke: #27C97B; stroke-width: 2.0;" width="646.5" x="13" y="90.9769"/><polygon fill="#27C97B" points="13,90.9769,74,90.9769,74,94.9769,64,104.9769,13,104.9769,13,90.9769" style="stroke: #27C97B; stroke-width: 2.0;"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="28" y="102.7157">alt</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="89" y="102.0626">[Local or LDAP User]</text><polygon fill="#323A4E" points="192.5,132.9622,202.5,136.9622,192.5,140.9622,196.5,136.9622" style="stroke: #323A4E; stroke-width: 1.0;"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="51.5" x2="198.5" y1="136.9622" y2="136.9622"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67" x="58.5" y="120.3763">request with</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="134" x="58.5" y="133.3615">username and password</text><polygon fill="#323A4E" points="306.5,159.9326,316.5,163.9326,306.5,167.9326,310.5,163.9326" style="stroke: #323A4E; stroke-width: 1.0;"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="214.5" x2="312.5" y1="163.9326" y2="163.9326"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="221.5" y="160.3468">forward request</text><rect fill="none" height="200.8682" style="stroke: #27C97B; stroke-width: 2.0;" width="288.5" x="260" y="209.9178"/><polygon fill="#27C97B" points="260,209.9178,321,209.9178,321,213.9178,311,223.9178,260,223.9178,260,209.9178" style="stroke: #27C97B; stroke-width: 2.0;"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="275" y="221.6566">alt</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="336" y="221.0035">[Local User]</text><line style="stroke: #323A4E; stroke-width: 1.0;" x1="328.5" x2="370.5" y1="256.8735" y2="256.8735"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="370.5" x2="370.5" y1="256.8735" y2="269.8735"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="329.5" x2="370.5" y1="269.8735" y2="269.8735"/><polygon fill="#323A4E" points="339.5,265.8735,329.5,269.8735,339.5,273.8735,335.5,269.8735" style="stroke: #323A4E; stroke-width: 1.0;"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="87" x="335.5" y="239.3172">verify username</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="335.5" y="252.3025">and password</text><line style="stroke: #27C97B; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="260" x2="548.5" y1="278.8735" y2="278.8735"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="265" y="287.9592">[LDAP User]</text><polygon fill="#323A4E" points="420.5,304.8599,430.5,308.8599,420.5,312.8599,424.5,308.8599" style="stroke: #323A4E; stroke-width: 1.0;"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="328.5" x2="426.5" y1="308.8599" y2="308.8599"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="335.5" y="305.274">forward request</text><line style="stroke: #323A4E; stroke-width: 1.0;" x1="442.5" x2="484.5" y1="349.8156" y2="349.8156"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="484.5" x2="484.5" y1="349.8156" y2="362.8156"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="443.5" x2="484.5" y1="362.8156" y2="362.8156"/><polygon fill="#323A4E" points="453.5,358.8156,443.5,362.8156,453.5,366.8156,449.5,362.8156" style="stroke: #323A4E; stroke-width: 1.0;"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="87" x="449.5" y="332.2592">verify username</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="449.5" y="345.2445">and password</text><polygon fill="#323A4E" points="339.5,397.8156,329.5,401.8156,339.5,405.8156,335.5,401.8156" style="stroke: #323A4E; stroke-width: 1.0;"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="333.5" x2="436.5" y1="401.8156" y2="401.8156"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="62" x="345.5" y="385.2297">authorized/</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="72" x="345.5" y="398.2149">unauthorized</text><line style="stroke: #27C97B; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="13" x2="659.5" y1="418.786" y2="418.786"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="96" x="18" y="427.8717">[OIDC or SAML IdP]</text><polygon fill="#323A4E" points="531.5,457.7723,541.5,461.7723,531.5,465.7723,535.5,461.7723" style="stroke: #323A4E; stroke-width: 1.0;"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="51.5" x2="537.5" y1="461.7723" y2="461.7723"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67" x="58.5" y="445.1865">request with</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="134" x="58.5" y="458.1717">username and password</text><line style="stroke: #323A4E; stroke-width: 1.0;" x1="553.5" x2="595.5" y1="502.7133" y2="502.7133"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="595.5" x2="595.5" y1="502.7133" y2="515.7133"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="554.5" x2="595.5" y1="515.7133" y2="515.7133"/><polygon fill="#323A4E" points="564.5,511.7133,554.5,515.7133,564.5,519.7133,560.5,515.7133" style="stroke: #323A4E; stroke-width: 1.0;"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="87" x="560.5" y="485.157">verify username</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="560.5" y="498.1422">and password</text><polygon fill="#323A4E" points="339.5,550.7133,329.5,554.7133,339.5,558.7133,335.5,554.7133" style="stroke: #323A4E; stroke-width: 1.0;"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="333.5" x2="547.5" y1="554.7133" y2="554.7133"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="62" x="345.5" y="538.1274">authorized/</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="72" x="345.5" y="551.1126">unauthorized</text><rect fill="none" height="147.8977" style="stroke: #27C97B; stroke-width: 2.0;" width="414.5" x="13" y="577.6837"/><polygon fill="#27C97B" points="13,577.6837,74,577.6837,74,581.6837,64,591.6837,13,591.6837,13,577.6837" style="stroke: #27C97B; stroke-width: 2.0;"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="28" y="589.4225">alt</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="89" y="588.7694">[Unauthorized User]</text><polygon fill="#323A4E" points="62.5,606.6689,52.5,610.6689,62.5,614.6689,58.5,610.6689" style="stroke: #323A4E; stroke-width: 1.0;"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="56.5" x2="317.5" y1="610.6689" y2="610.6689"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="72" x="68.5" y="607.0831">unauthorized</text><line style="stroke: #27C97B; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="13" x2="427.5" y1="620.6542" y2="620.6542"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="93" x="18" y="629.7399">[Authorized User]</text><line style="stroke: #323A4E; stroke-width: 1.0;" x1="328.5" x2="370.5" y1="677.5962" y2="677.5962"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="370.5" x2="370.5" y1="677.5962" y2="690.5962"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="329.5" x2="370.5" y1="690.5962" y2="690.5962"/><polygon fill="#323A4E" points="339.5,686.5962,329.5,690.5962,339.5,694.5962,335.5,690.5962" style="stroke: #323A4E; stroke-width: 1.0;"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="335.5" y="647.0547">generate</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="335.5" y="660.0399">authentication</text><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="57" x="335.5" y="673.0251">token JWT</text><polygon fill="#323A4E" points="62.5,712.5962,52.5,716.5962,62.5,720.5962,58.5,716.5962" style="stroke: #323A4E; stroke-width: 1.0;"/><line style="stroke: #323A4E; stroke-width: 1.0;" x1="56.5" x2="322.5" y1="716.5962" y2="716.5962"/><text fill="#323A4E" font-family="Source Sans Pro" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="176" x="68.5" y="713.0103">return authentication token JWT</text><!--
+@startuml
+
+' Mesosphere Theme to be used with the PlantUML !includeurl directive like so:
+'!includeurl https://raw.githubusercontent.com/vishnu2kmohan/puml/master/ipuml/Mesosphere.ipuml
+
+' Mesosphere Colors
+
+' Uncomment to use the new Teoz layout engine instead of Puma (default)
+'!pragma teoz on
+
+skinparam arrowColor              #323A4E
+skinparam backgroundColor         transparent
+skinparam defaultFontName         Source Sans Pro
+skinparam footerFontColor         #323A4E
+skinparam headerFontColor         #323A4E
+skinparam roundcorner             10
+skinparam shadowing               false
+skinparam titleFontColor          #323A4E
+
+skinparam activity {
+  ArrowColor                      #323A4E
+  ArrowFontColor                  #323A4E
+  BackgroundColor                 #9351E5|#EF468B
+  BarColor                        #323A4E
+  BorderColor                     transparent
+  BorderThickness                 0
+  DiamondBackgroundColor          #9351E5|#EF468B
+  DiamondBorderColor              transparent
+  DiamondBorderThickness          0
+  DiamondFontColor                white
+  EndColor                        #323A4E
+  FontColor                       white   
+  PartitionBackgroundColor        transparent
+  PartitionBorderColor            #323A4E
+  PartitionFontColor              #323A4E
+  StartColor                      #323A4E
+}
+
+skinparam actor {
+  BackgroundColor                 #9351E5|#EF468B
+  BorderColor                     #9351E5
+}
+
+skinparam note {
+  BackgroundColor                 #FEDF57
+  BorderColor                     #FEDF57
+  BorderThickness                 0
+  FontColor                       #323A4E
+}
+
+skinparam partition {
+  BackgroundColor                 transparent
+  BorderColor                     #323A4E
+  FontColor                       #323A4E
+}
+
+skinparam sequence {
+  ArrowColor                      #323A4E
+  ArrowFontColor                  #323A4E
+  BoxBackgroundColor              #20D5FF
+  BoxBorderColor                  #20D5FF
+  BoxFontColor                    #323A4E
+  BoxLineColor                    #20D5FF
+  DividerBackgroundColor          #323A4E
+  DividerBorderColor              #323A4E
+  DividerFontColor                white
+  GroupBackgroundColor            #27C97B
+  GroupBodyBackgroundColor        transparent
+  GroupBorderColor                #27C97B
+  GroupFontColor                  #323A4E
+  GroupHeaderFontColor            #323A4E
+  LifeLineBackgroundColor         #F56753
+  LifeLineBorderColor             #F56753
+  MessageAlign                    left
+  NewpageSeparatorColor           #323A4E
+  ParticipantBackgroundColor      #9351E5|#EF468B
+  ParticipantBorderColor          transparent
+  ParticipantBorderThickness      0
+  ParticipantFontColor            white
+  ReferenceBackgroundColor        #323A4E
+  ReferenceBorderColor            #323A4E
+  ReferenceFontColor              white
+  ReferenceHeaderBackgroundColor  #323A4E
+  StereotypeFontColor             #323A4E
+  TitleFontColor                  #323A4E
+}
+
+skinparam state {
+  ArrowColor                      #323A4E 
+  AttributeFontColor              white
+  BackgroundColor                 #9351E5|#EF468B
+  BorderColor                     #F56753
+  EndColor                        #323A4E
+  FontColor                       white
+  StartColor                      #323A4E
+}
+
+skinparam swimlane {
+  BorderThickness                 0
+  TitleFontColor                  #323A4E
+  Width                           same
+}
+
+title Mesosphere Enterprise DC/OS User Login
+hide footbox
+' To print on US Letter, uncomment the scale directive
+'scale 1056*816
+
+participant UC as "User\nClient"
+participant AR as "Admin\nRouter"
+participant IAM as "Identity and\nAccess Manager"
+participant LDAP as "LDAP\nServer"
+participant IDP as "OIDC/SAML\nIdentity Provider"
+
+activate UC
+alt Local or LDAP User
+    UC -> AR : request with\nusername and password
+    activate AR
+    AR -> IAM : forward request
+    activate IAM
+    deactivate AR
+    alt Local User
+        IAM -> IAM : verify username\nand password
+    else LDAP User
+        IAM -> LDAP : forward request
+        activate LDAP
+        LDAP -> LDAP : verify username\nand password
+        LDAP -> IAM : authorized/\nunauthorized
+        deactivate LDAP
+    end
+else OIDC or SAML IdP
+    UC -> IDP : request with\nusername and password
+    activate IDP
+    IDP -> IDP : verify username\nand password
+    IDP -> IAM : authorized/\nunauthorized
+    deactivate IDP
+end
+
+alt Unauthorized User
+    IAM -> UC : unauthorized
+else Authorized User
+    IAM -> IAM : generate\nauthentication\ntoken JWT
+    IAM -> UC : return authentication token JWT
+    deactivate IAM
+end
+deactivate UC
+
+@enduml
+
+PlantUML version 1.2017.15(Mon Jul 03 12:45:34 EDT 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_144-b01
+Operating System: Linux
+OS Version: 4.12.8-gentoo-dsdt-fix
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
