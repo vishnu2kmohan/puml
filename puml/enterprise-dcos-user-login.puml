@@ -1,0 +1,49 @@
+@startuml
+
+!includeurl https://raw.githubusercontent.com/vishnu2kmohan/puml/master/ipuml/Mesosphere.ipuml
+
+title Mesosphere Enterprise DC/OS User Login
+hide footbox
+' To print on US Letter, uncomment the scale directive
+'scale 1056*816
+
+participant UC as "User\nClient"
+participant AR as "Admin\nRouter"
+participant IAM as "Identity and\nAccess Manager"
+participant LDAP as "LDAP\nServer"
+participant IDP as "OIDC/SAML\nIdentity Provider"
+
+activate UC
+alt Local or LDAP User
+    UC -> AR : request with\nusername and password
+    activate AR
+    AR -> IAM : forward request
+    activate IAM
+    deactivate AR
+    alt Local User
+        IAM -> IAM : verify username\nand password
+    else LDAP User
+        IAM -> LDAP : forward request
+        activate LDAP
+        LDAP -> LDAP : verify username\nand password
+        LDAP -> IAM : authorized/\nunauthorized
+        deactivate LDAP
+    end
+else OIDC or SAML IdP
+    UC -> IDP : request with\nusername and password
+    activate IDP
+    IDP -> IDP : verify username\nand password
+    IDP -> IAM : authorized/\nunauthorized
+    deactivate IDP
+end
+
+alt Unauthorized User
+    IAM -> UC : unauthorized
+else Authorized User
+    IAM -> IAM : generate\nauthentication\ntoken JWT
+    IAM -> UC : return authentication token JWT
+    deactivate IAM
+end
+deactivate UC
+
+@enduml

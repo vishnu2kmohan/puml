@@ -1,0 +1,28 @@
+@startuml
+
+!includeurl https://raw.githubusercontent.com/vishnu2kmohan/puml/master/ipuml/Mesosphere.ipuml
+
+title Swimlane Activity
+' To print on US Letter, uncomment the scale directive
+'scale 1056*816
+
+|#EF468B|Mercury Pink|
+start
+:foo1;
+|#FEDF57|Venus Yellow|
+:foo2;
+|#2F81F7|Earth Blue|
+:foo3;
+|#FC4661|Mars Red|
+:foo4;
+|#F56753|Jupiter Orange|
+:foo5;
+|#C043D7|Saturn Orchid|
+:foo6;
+|#27C97B|Uranus Green|
+:foo7;
+|#20D5FF|Neptune Cyan|
+:foo8;
+stop
+
+@enduml

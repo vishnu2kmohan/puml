@@ -1,0 +1,35 @@
+@startuml
+
+!includeurl https://raw.githubusercontent.com/vishnu2kmohan/puml/master/ipuml/Mesosphere.ipuml
+
+title Mesosphere Enterprise DC/OS Authorization
+hide footbox
+' To print on US Letter, uncomment the scale directive
+'scale 1056*816
+
+participant C as "API/CLI/UI\nClient"
+participant AR as "Admin\nRouter"
+participant IAM as "Identity and\nAccess Manager"
+participant MMM as "Mesos/\nMarathon/Metronome"
+
+activate C
+C -> AR : HTTP request with\nauthentication token (JWT)
+activate AR
+AR -> AR : verify JWT
+AR -> IAM : is JWT authorized for resource?
+activate IAM
+IAM -> AR : yes|no
+AR -> MMM : forward request
+activate MMM
+deactivate AR
+opt permissive/strict
+    MMM -> MMM : verify JWT
+    MMM -> IAM : is JWT authorized for resource
+    IAM -> MMM : yes|no
+end
+deactivate IAM
+MMM -> C : response
+deactivate MMM
+deactivate C
+
+@enduml
