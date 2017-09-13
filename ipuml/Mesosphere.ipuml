@@ -16,18 +16,14 @@
 ' Uncomment to use the new Teoz layout engine instead of Puma (default)
 '!pragma teoz on
 
-skinparam arrowColor              MESOSPHERE_SPACE_GRAY
 skinparam backgroundColor         transparent
 skinparam defaultFontName         Source Sans Pro
 skinparam footerFontColor         MESOSPHERE_SPACE_GRAY
 skinparam headerFontColor         MESOSPHERE_SPACE_GRAY
 skinparam roundcorner             10
 skinparam shadowing               false
-skinparam titleFontColor          MESOSPHERE_SPACE_GRAY
 
 skinparam activity {
-  ArrowColor                      MESOSPHERE_SPACE_GRAY
-  ArrowFontColor                  MESOSPHERE_SPACE_GRAY
   BackgroundColor                 MESOSPHERE_HELIOTROPE|MESOSPHERE_MERCURY_PINK
   BarColor                        MESOSPHERE_SPACE_GRAY
   BorderColor                     transparent
@@ -38,15 +34,24 @@ skinparam activity {
   DiamondFontColor                white
   EndColor                        MESOSPHERE_SPACE_GRAY
   FontColor                       white   
-  PartitionBackgroundColor        transparent
-  PartitionBorderColor            MESOSPHERE_SPACE_GRAY
-  PartitionFontColor              MESOSPHERE_SPACE_GRAY
   StartColor                      MESOSPHERE_SPACE_GRAY
 }
 
 skinparam actor {
   BackgroundColor                 MESOSPHERE_HELIOTROPE|MESOSPHERE_MERCURY_PINK
   BorderColor                     MESOSPHERE_HELIOTROPE
+  FontColor                       MESOSPHERE_SPACE_GRAY
+}
+
+skinparam arrow {
+  Color                           MESOSPHERE_SPACE_GRAY
+  FontColor                       MESOSPHERE_SPACE_GRAY
+}
+
+skinparam database {
+  BackgroundColor                 MESOSPHERE_NEPTUNE_CYAN
+  BorderColor                     MESOSPHERE_SPACE_GRAY
+  FontColor                       MESOSPHERE_SPACE_GRAY
 }
 
 skinparam note {
@@ -63,8 +68,6 @@ skinparam partition {
 }
 
 skinparam sequence {
-  ArrowColor                      MESOSPHERE_SPACE_GRAY
-  ArrowFontColor                  MESOSPHERE_SPACE_GRAY
   BoxBackgroundColor              MESOSPHERE_NEPTUNE_CYAN
   BoxBorderColor                  MESOSPHERE_NEPTUNE_CYAN
   BoxFontColor                    MESOSPHERE_SPACE_GRAY
@@ -90,11 +93,9 @@ skinparam sequence {
   ReferenceFontColor              white
   ReferenceHeaderBackgroundColor  MESOSPHERE_SPACE_GRAY
   StereotypeFontColor             MESOSPHERE_SPACE_GRAY
-  TitleFontColor                  MESOSPHERE_SPACE_GRAY
 }
 
 skinparam state {
-  ArrowColor                      MESOSPHERE_SPACE_GRAY 
   AttributeFontColor              white
   BackgroundColor                 MESOSPHERE_HELIOTROPE|MESOSPHERE_MERCURY_PINK
   BorderColor                     MESOSPHERE_JUPYTER_ORANGE
@@ -105,6 +106,13 @@ skinparam state {
 
 skinparam swimlane {
   BorderThickness                 0
-  TitleFontColor                  MESOSPHERE_SPACE_GRAY
   Width                           same
+}
+
+skinparam title {
+  BackgroundColor                 transparent
+  BorderColor                     transparent
+  BorderRoundCorner               0
+  BorderThickness                 0
+  FontColor                       MESOSPHERE_SPACE_GRAY
 }
